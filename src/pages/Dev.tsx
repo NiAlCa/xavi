@@ -1,4 +1,6 @@
-import Button from "../components/Button";
+import Button from "../components/Button/Button";
+import LastSong from "../components/LastSong/LastSong";
+import {LastSongData}  from "../data/LastSongData.mock"
 
 
 
@@ -8,6 +10,11 @@ function Dev() {
       <div className="section">
 <Button isPrimary={true} onClick={()=>{}} texto="TOUR DATES"/>
       </div>
+
+      <LastSong
+      image={LastSongData[0].image}
+      url={LastSongData[0].url}
+      />
 
 
 
