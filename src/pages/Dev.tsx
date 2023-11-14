@@ -1,6 +1,8 @@
 import Button from "../components/Button/Button";
 import LastSong from "../components/LastSong/LastSong";
+import Navbar from "../components/NavBar/NavBar";
 import {LastSongData}  from "../data/LastSongData.mock"
+import { Rrss } from "../data/Rrss.mock";
 
 
 
@@ -16,7 +18,7 @@ function Dev() {
       url={LastSongData[0].url}
       />
 
-
+< Navbar rsData={Rrss} />
 
 
 
