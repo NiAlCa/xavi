@@ -40,7 +40,7 @@ export default function LastSong({ image, url }: LastSongProps) {
                  style={{ backgroundImage: `url(${image})` }}>
             </div>
             <div className="LastSongButton">
-                <Button isSecondary={true} onClick={handleClick} texto="Listen now" />
+                <Button isSecondary={true} onClick={handleClick} texto="LISTEN NOW" />
             </div>
         </div>
     );

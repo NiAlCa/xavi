@@ -1,0 +1,43 @@
+@import '../../style/mixins.scss';
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+@include respond-to(large){
+    .Header{
+        background-position: center; 
+
+        .HeaderLogo{
+            align-self: flex-end;
+           
+        }
+    }
+
+
+}
+
+
+@include respond-to(medium){
+    .Header{
+
+
+        .HeaderLogo{
+      
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+
+
+}
+
+
