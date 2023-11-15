@@ -1,17 +1,16 @@
-import { FaFacebookF, FaSpotify, FaDiscord, FaTiktok } from "react-icons/fa";
-import { FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa6";
-import { SiApplemusic } from "react-icons/si";
+
+import { SiApplemusic , SiFacebook, SiYoutube,  SiSpotify, SiInstagram ,  SiTwitter , SiTiktok, SiDiscord   } from "react-icons/si";
 export const Rrss = [
   {
     Rs: "FACEBOOK",
     url: "https://www.facebook.com/anthrboy/",
-    icon: <FaFacebookF />,
+    icon: <SiFacebook  />,
     text: "FOLLOW"
   },
   {
     Rs: "YOUTUBE",
     url: "https://www.youtube.com/c/ANTHRB%C3%98Y",
-    icon: <FaYoutube />,
+    icon: <SiYoutube  />,
     text: "STREAM"
   },
   {
@@ -23,31 +22,31 @@ export const Rrss = [
   {
     Rs: "SPOTIFY",
     url: "https://open.spotify.com/intl-es/artist/6X1cRyD27j6YviZ28d67VK",
-    icon: <FaSpotify />,
+    icon: <SiSpotify  />,
     text: "STREAM"
   },
   {
     Rs: "INSTAGRAM",
     url: "https://www.instagram.com/anthrboy/",
-    icon: <FaInstagram />,
+    icon: <SiInstagram  />,
     text: "FOLLOW"
   },
   {
     Rs: "TWITTER",
     url: "https://twitter.com/anthrboy",
-    icon: <FaTwitter />,
+    icon: <SiTwitter  />,
     text: "FOLLOW"
   },
   {
     Rs: "TIKTOK",
     url: "https://www.tiktok.com/@anthrboy",
-    icon: <FaTiktok />,
+    icon: <SiTiktok  />,
     text: "FOLLOW"
   },
   {
     Rs: "DISCORD",
     url: "https://discord.com/invite/hmQpbfFmPy",
-    icon: <FaDiscord />,
+    icon: <SiDiscord  />,
     text: "FOLLOW"
   },
 ];
