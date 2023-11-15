@@ -1,0 +1,38 @@
+.LastSong{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    perspective: 500px;
+    transform-style: preserve-3d;
+
+   
+
+    .LastSongButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+#poster{
+    width: 300px;
+    height: 300px;
+    transition: box-shadow .1s, transform ;
+
+
+
+
+    
+
+    background:
+        
+        no-repeat
+        center;
+    background-size: cover
+    
+}
+
+#poster:hover{
+    box-shadow: 0px 0px 50px rgba(0,0,0, 1);
+}
