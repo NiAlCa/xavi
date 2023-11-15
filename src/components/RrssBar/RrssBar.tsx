@@ -15,9 +15,8 @@ interface BarProps {
 
 const RrssBar: React.FC<BarProps> = ({ rsData }) => {
   return (
-    <div className="contenedor">
       <div className="link-container">
-        <IconContext.Provider value={{ size: "20px" }}>
+        <IconContext.Provider value={{ size: "30px" }}>
           {rsData.map((rsItem, index) => (
             <div key={index} className="link-wrapper">
               <a
@@ -36,7 +35,6 @@ const RrssBar: React.FC<BarProps> = ({ rsData }) => {
           ))}
         </IconContext.Provider>
       </div>
-    </div>
   );
 };
 
