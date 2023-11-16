@@ -1,6 +1,11 @@
 
 @import 'root.scss';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@font-face {
+    font-family: 'AbFonte';
+    src: url('../assets/AbFonte-Regular.ttf') format('truetype');
+}
+
+
 
 *{
     margin: 0px;
@@ -8,10 +13,14 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'AbFonte', sans-serif;
 
 
 background-color: var(--background-color);
+
+button{
+    font-family: 'AbFonte', sans-serif;
+}
 
 }
 
