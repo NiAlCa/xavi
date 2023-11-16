@@ -15,7 +15,7 @@ export function Header({ image }: HomePageProps) {
       style={{
         backgroundImage: `url(${image})`,
         backgroundSize: "cover",
-        width: "99.1vw",
+        width: "100vw",
         height: "100vh",
       }}
     >
