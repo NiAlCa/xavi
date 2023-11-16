@@ -1,46 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+:root {
+  --spacing-xl: 150px;
+  --spacing-lg: 100px;
+  --spacing-md: 50px;
+  --spacing-sm: 25px;
+  --spacing-s: 15px;
+  --spacing-xs: 10px;
+  --spacing-xxs: 5px;
 
-:root{
-    --font: font-family: 'Comfortaa', sans-serif;
+  --font-size-xxxxl: 35px;
+  --font-size-xxxl: 30px;
+  --font-size-xxl: 26px;
+  --font-size-xl: 24px;
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xs: 13px;
 
-    
+  --font-weight-bold: bold;
 
-    
+  --red: red;
 
-    --spacing-xl: 150px;
-    --spacing-lg: 100px;
-    --spacing-md: 50px;
-    --spacing-sm: 25px;
-    --spacing-s: 16px;
-    --spacing-xs: 10px;
-    --spacing-xxs: 5px; 
-  
-    --font-size-xxxxl: 35px;
-    --font-size-xxxl: 30px;
-    --font-size-xxl: 26px;
-    --font-size-xl: 24px;
-    --font-size-l: 18px;
-    --font-size-m: 16px;
-    --font-size-s: 14px;
-    --font-size-xs: 13px;
- 
-    
-    --red: red;
-
-    --background-color:#212121;
-    --background-image: radial-gradient(hsla(0, 0%, 90%, 0.1) 1px,transparent 0);
-
-
-    --font-color: white;
-  --color-prymary: #8B8B8B;
-  --color-secundary: #5094e7;
-  --color-tertiary: #6A5EF7;
-  --color-quaternary:#798B7E;
+  --background-color: #933937;
+  --font-color: white;
+  --color-prymary: #914644;
+  --color-primary-transparent: #91474495;
+  --color-secundary: #f71511;
+  --color-tertiary: #e4bf949c;
+  --color-quaternary: #798b7e;
   --color-quinary: #f3f3f3;
   --color-sextary: #000000;
   --color-septenary: #16161680;
   --color-octave: #eaeaea;
 
+  --padding-one: 6.2px;
 
 
-  }
+  --gap-one: 6px;
+  --gap-link-container:30px;
+
+  --border-radius-hover:18px;
+
+}

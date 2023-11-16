@@ -1,6 +1,11 @@
 
 @import 'root.scss';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@font-face {
+    font-family: 'AbFonte';
+    src: url('../assets/AbFonte-Regular.ttf') format('truetype');
+}
+
+
 
 *{
     margin: 0px;
@@ -8,17 +13,15 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'AbFonte', sans-serif;
+    overflow-x: hidden;
 
 
 background-color: var(--background-color);
-background-image: var(--background-image);
-background-size: 20px 20px; 
-background-position: center center;
-background-attachment: fixed;
 
-
-
+button{
+    font-family: 'AbFonte', sans-serif;
+}
 
 }
 
@@ -26,11 +29,14 @@ background-attachment: fixed;
 
   
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 1200px;
+        width: 100% ;
         height: 100%;
         margin: auto;
+      
+        
 
       
 }
@@ -39,8 +45,7 @@ background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
-
-    max-width: 1200px;
+    width: 100% ;
+    height: 100vh;
 }
 
