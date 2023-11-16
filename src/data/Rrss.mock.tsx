@@ -1,30 +1,37 @@
 
 import { SiApplemusic , SiFacebook, SiYoutube,  SiSpotify, SiInstagram ,  SiTwitter , SiTiktok, SiDiscord   } from "react-icons/si";
 export const Rrss = [
-  {
-    Rs: "FACEBOOK",
-    url: "https://www.facebook.com/anthrboy/",
-    icon: <SiFacebook  />,
-    text: "FOLLOW"
-  },
-  {
-    Rs: "YOUTUBE",
-    url: "https://www.youtube.com/c/ANTHRB%C3%98Y",
-    icon: <SiYoutube  />,
-    text: "STREAM"
-  },
+
   {
     Rs: "APPLE MUSIC",
     url: "https://music.apple.com/es/artist/anthr-b%C3%B8y/1447314835",
     icon: <SiApplemusic />,
     text: "STREAM"
   },
+ 
+  
+ 
   {
     Rs: "SPOTIFY",
     url: "https://open.spotify.com/intl-es/artist/6X1cRyD27j6YviZ28d67VK",
     icon: <SiSpotify  />,
     text: "STREAM"
   },
+
+  {
+    Rs: "FACEBOOK",
+    url: "https://www.facebook.com/anthrboy/",
+    icon: <SiFacebook  />,
+    text: "FOLLOW"
+  },
+
+  {
+    Rs: "YOUTUBE",
+    url: "https://www.youtube.com/c/ANTHRB%C3%98Y",
+    icon: <SiYoutube  />,
+    text: "STREAM"
+  },
+
   {
     Rs: "INSTAGRAM",
     url: "https://www.instagram.com/anthrboy/",
