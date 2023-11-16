@@ -32,6 +32,10 @@
 
   .icon {
     color: var(--font-color);
+    svg{
+      max-width: 35px;
+      max-height: 35px;
+    }
   }
 
   .textos {
@@ -50,9 +54,18 @@
 
 @include respond-to(large) {
   .links {
-    
     .textos {
       display: none;
     }
+  }
+}
+
+@include respond-to(small) {
+  .links {
+    .icon {
+      svg{
+      width: 20px;
+      height: 20px;
+    }}
   }
 }
