@@ -6,6 +6,7 @@
     color: var(--font-color);
     border-radius: 8px;
     font-size: var(--font-size-l);
+    transition: 0.5s linear ;
     &:hover{
         color: var(--color-prymary) ;
         background-color: var(--font-color) ;
