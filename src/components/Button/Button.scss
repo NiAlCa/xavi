@@ -1,12 +1,16 @@
 .button-primary{
-    background-color: #57454566 ;
+    background-color: var( --color-primary-transparent) ;
     width: 180px;
-    height: 32.40px;
-    border: #fff solid 1px;
-    color: #fff;
+    height: 40px;
+    border: var(--font-color) solid 4px;
+    color: var(--font-color);
+    border-radius: 8px;
+    font-size: var(--font-size-l);
+    &:hover{
+        color: var(--color-prymary) ;
+        background-color: var(--font-color) ;
+    }
 }
 .button-secondary{
     @extend .button-primary;
-
-    background-color: rgba(255, 255, 255, 0)
 }
