@@ -6,7 +6,7 @@
         @media (max-width: 900px) { @content; }
     }
     @else if $breakpoint == 'large' {
-        @media (max-width: 1050px) { @content; }
+        @media (max-width: 1115px) { @content; }
     }
     @else if $breakpoint == 'xlarge' {
         @media (max-width: 1500px) { @content; }

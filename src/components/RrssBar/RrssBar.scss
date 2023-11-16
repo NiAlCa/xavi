@@ -1,3 +1,4 @@
+@import "../../style/mixins.scss";
 
 .link-container {
   display: flex;
@@ -8,14 +9,11 @@
   gap: var(--gap-link-container);
 
   background-color: var(--color-primary-transparent);
- 
 }
 
 .link-wrapper {
   display: flex;
   align-items: center;
-  
-  
 }
 
 .links {
@@ -24,7 +22,6 @@
   text-decoration: none;
   align-items: center;
   padding: var(--padding-one);
-  
 
   &:hover {
     .textos,
@@ -34,7 +31,7 @@
   }
 
   .icon {
-    color: var(--font-color) ;
+    color: var(--font-color);
   }
 
   .textos {
@@ -44,11 +41,18 @@
     align-items: center;
     color: var(--font-color);
     letter-spacing: 1px;
-
-   
   }
   &:hover {
     border-radius: var(--border-radius-hover);
-    background: var( --color-tertiary);
+    background: var(--color-tertiary);
+  }
+}
+
+@include respond-to(large) {
+  .links {
+    
+    .textos {
+      display: none;
+    }
   }
 }
