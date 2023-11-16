@@ -4,10 +4,10 @@
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 100vw;
   height: 50px;
-  gap: var(--gap-link-container);
-
+  justify-content: space-around;
+  
   background-color: var(--color-primary-transparent);
 }
 
@@ -61,6 +61,8 @@
 }
 
 @include respond-to(small) {
+
+
   .links {
     .icon {
       svg{
