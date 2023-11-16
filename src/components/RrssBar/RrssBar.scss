@@ -20,7 +20,7 @@
   gap: 6px;
   text-decoration: none;
   align-items: center;
-  padding: 5px;
+  padding: 4px;
 
   &:hover {
     .textos,
@@ -47,6 +47,6 @@
   }
   &:hover {
     border-radius: 18px;
-    background: linear-gradient(45deg, #ff7eb481, #7a63d724, rgba(131, 203, 175, 0.581));
+    background: linear-gradient(45deg, rgba(131, 203, 175, 0.581), #7a63d724, #ff7eb481 );
   }
 }
