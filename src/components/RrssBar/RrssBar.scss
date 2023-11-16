@@ -6,13 +6,16 @@
   width: 100%;
   height: 6vh;
   gap: 30px;
-  background-color: #e9d5b86a;
 
+  background-color: var(--color-primary-transparent);
+ 
 }
 
 .link-wrapper {
   display: flex;
   align-items: center;
+  
+  
 }
 
 .links {
@@ -21,6 +24,7 @@
   text-decoration: none;
   align-items: center;
   padding: 4px;
+  
 
   &:hover {
     .textos,
@@ -30,7 +34,7 @@
   }
 
   .icon {
-    color:rgb(68, 67, 67);
+    color: var(--font-color) ;
   }
 
   .textos {
@@ -38,7 +42,7 @@
     flex-direction: column;
     font-size: 10px;
     align-items: center;
-    color: rgb(88, 88, 88);
+    color: var(--font-color);
     letter-spacing: 1px;
 
     span {
@@ -47,6 +51,6 @@
   }
   &:hover {
     border-radius: 18px;
-    background: linear-gradient(45deg, rgba(131, 203, 175, 0.581), #7a63d724, #ff7eb481 );
+    background: var( --linear-gradient);
   }
 }
