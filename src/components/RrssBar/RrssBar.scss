@@ -8,7 +8,7 @@
   height: 50px;
   justify-content: space-around;
   
-  background-color: var(--color-primary-transparent);
+  background-color: var(--color-primary-transparent);transition-duration: 3s;
 }
 
 .link-wrapper {
@@ -22,7 +22,7 @@
   text-decoration: none;
   align-items: center;
   padding: var(--padding-one);
-
+  transition-duration: 0.3s;
   &:hover {
     .textos,
     .icon {
@@ -45,6 +45,7 @@
     align-items: center;
     color: var(--font-color);
     letter-spacing: 1px;
+    
   }
   &:hover {
     border-radius: var(--border-radius-hover);
